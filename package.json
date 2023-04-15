@@ -1,0 +1,27 @@
+{
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.8.2",
+    "bn.js": "^5.2.1",
+    "chai": "^4.3.7",
+    "ethers": "^6.2.3",
+    "truffle-plugin-debugger": "^0.0.2"
+  },
+  "devDependencies": {
+    "@openzeppelin/test-environment": "^0.1.9",
+    "@openzeppelin/test-helpers": "^0.5.16",
+    "@openzeppelin/truffle-upgrades": "^1.17.0",
+    "@truffle/hdwallet-provider": "^2.1.9",
+    "chai-bn": "^0.3.1",
+    "eth-gas-reporter": "^0.2.25",
+    "truffle-plugin-verify": "^0.5.20"
+  },
+  "scripts": {
+    "test_compute": "npx truffle test test/Base.compute.test.js",
+    "test_transfer": "npx truffle test test/Transfer.test.js",
+    "test_lp": "npx truffle test test/Lp.test.js",
+    "test_interest": "npx truffle test test/Interest.test.js",
+    "test_buyToParent": "npx truffle test test/buyToParent.test.js",
+    "test_ToLp": "npx truffle test test/ToLp.test.js",
+    "test_TokenB": "npx truffle test test/TokenB.test.js"
+  }
+}

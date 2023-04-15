@@ -25,3 +25,5 @@ truffle test test/USDTt.test.js
 ```
 truffle debug {交易hash}
 ```
+### 即可看到如下单步调试介苗
+![debug 界面](1221681557050.jpg)
